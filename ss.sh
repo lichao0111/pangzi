@@ -12,7 +12,6 @@ for ((i=1;i<=10;i++))
 do
         echo >&3
 done
-#a=${#IP[*]}
 for ((i=0;i<${#IP[*]};i++))
 do
 read -u3
