@@ -16,8 +16,8 @@ import qiniu.config
 
 
 def up_imges(name):
-    access_key = '88888'
-    secret_key = '99999'
+    access_key = 'xxxxxxxxxxxxxxxxxxxxxx'
+    secret_key = 'xxxxxxxxxxxxxxxxxxxxxx'
     q = Auth(access_key, secret_key)
     bucket_name = 'mz-style'
     key = name
@@ -33,7 +33,7 @@ def up_imges(name):
 def send_mail(str):
     mail_host = "smtp.qq.com"
     mail_user = "649807430@qq.com"
-    mail_pass = "scjilencpwvubfag"
+    mail_pass = "xxxxxxx"
 
     sender = '649807430@qq.com'
     receivers = 'lichao0111@163.com;649807430@qq.com'
@@ -112,9 +112,9 @@ def src_log(log):
 
 
 def main():
-    while 0:
-        scr_im()
-        time.sleep(3600)
+#    while 0:
+     scr_im()
+#       time.sleep(3600)
 
 
 if __name__ == "__main__":
